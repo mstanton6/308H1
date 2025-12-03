@@ -35,7 +35,7 @@ const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 // Finally, log the results.
 console.log(isValid);
 
-// Implement the following:
+// ***** Part 1: Math Problems :  Implement the following:
 
 // Check if all numbers are divisible by 5. Cache the result in a variable.
 const div5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0;
@@ -56,7 +56,7 @@ console.log('arithmetic chain: ' + div8);
 const allUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
 console.log('Change the way that isOver25 calculates: ' + allUnder25);
 
-///// Part 2
+///// *****  Part 2
 
 // Practical Math
 
