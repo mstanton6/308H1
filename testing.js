@@ -38,7 +38,7 @@ console.log(isValid);
 // Implement the following:
 
 // Check if all numbers are divisible by 5. Cache the result in a variable.
-const div5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0
+const div5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0;
 console.log('The 4 numbers are all divisible by 5: ' + div5);
 
 // Check if the first number is larger than the last. Cache the result in a variable.
@@ -55,3 +55,39 @@ console.log('arithmetic chain: ' + div8);
 // Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
 const allUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
 console.log('Change the way that isOver25 calculates: ' + allUnder25);
+
+///// Part 2
+
+// Practical Math
+
+let GasBudget = 175;
+
+let FuelCostgal = 3;
+
+let TotalMiles = 1500;
+
+let speed = 60;
+
+mpg60 = 28;
+
+GallonsAvailable = GasBudget / FuelCostgal
+
+// How many gallons of fuel will you need for the entire trip?
+
+GallonsNeeded = TotalMiles / mpg60
+console.log('Total gallons of fuel needed for the entire trip: ' + GallonsNeeded);
+
+// Will your budget be enough to cover the fuel expense?
+
+TotalFuelExpense = GallonsNeeded * FuelCostgal;
+if (TotalFuelExpense > GasBudget) {
+    console.log("There will not be enough budget to cover the fuel expense");
+}
+else {
+    console.log("There will be enough budget to cover the fuel expense");
+}
+
+// How long will the trip take, in hours?
+
+TripinHours = TotalMiles / speed;
+console.log('The trip will take: ' + TripinHours + " " + "hours");
